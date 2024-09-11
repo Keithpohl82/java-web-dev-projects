@@ -4,6 +4,10 @@ public class Student {
         private int numberOfCredits = 0;
         private double gpa = 0.0;
 
+        public Student(String keithPohl, int i, int i1, double v) {
+        }
+
+
         // Drop your getters and setters below for the Student class.
         // To instantiate the Student class, add your code to the main in the file, SchoolPractice.
 
