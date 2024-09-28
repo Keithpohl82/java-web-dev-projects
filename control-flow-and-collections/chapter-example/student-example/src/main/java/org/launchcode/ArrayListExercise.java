@@ -16,8 +16,8 @@ public class ArrayListExercise {
 
     public static void main(String[] args) {
         ArrayList<Double> testList = new ArrayList<>();
-        testList.add(1.0)
-        sumNums();
+        testList.add(1.0);
+        sumNums(testList);
     }
 
 }
