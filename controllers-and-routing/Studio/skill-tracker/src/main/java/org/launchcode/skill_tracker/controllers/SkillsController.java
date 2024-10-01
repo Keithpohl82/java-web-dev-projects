@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class SkillsController {
 
+
     @GetMapping("/")
     public String homepage(){
         return "<html>" +
