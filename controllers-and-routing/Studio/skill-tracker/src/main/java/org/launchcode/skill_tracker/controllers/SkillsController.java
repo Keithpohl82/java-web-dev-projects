@@ -10,11 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class SkillsController {
 
-
     @GetMapping("/")
     public String homepage(){
-        return "<html>" +
-                "<body>" +
+        return
                 "<h1>" +
                 "Skill Tracker" +
                 "<h2>" +
@@ -31,15 +29,17 @@ public class SkillsController {
                 "</li>" +
                 "</ol>" +
                 "</h2>" +
-                "</h1>" +
-                "</body>" +
-                "</html>";
+                "</h1>" ;
+
+    }
+
+    public String randomMethod(){
+        return "this string";
     }
 
     @GetMapping("form")
     public String formPage(){
-        return "<html>" +
-                "<body>" +
+        return
                 "<form action= 'form' method='post'>" +
                 "<h1>" +
                 "Name: " +
